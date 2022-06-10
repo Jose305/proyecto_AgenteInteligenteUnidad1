@@ -283,4 +283,37 @@ def Zona_7():
     print("Medición del rendimiento: " + str(costo))
 
 #******************************************************************************************************************
-  
+""" Se define el programa del robot estableciendo un meno con 7 opciones correspondientes a las zonas de cultivo
+    Se inicializa con la variable opcion=1
+    Con el bucle while se condiciona que si es diferente de ocho ingresa algunas de las opciones
+"""
+opcion=1
+while opcion != 8:
+    print("\n\t**** AGROBOT SERIE E ****\n")
+    #Se muestra las opciones
+    print('1. Zona 1 Poste\n2. Zona 2 Peripa\n3. Zona 3 Chiguilpe\n4. Zona 4 Otongo\n5. Zona 5 Naranjos\n6. Zona 6 Congoma\n7. Zona 7 Mapali\n8.Salir')
+    #El usuario ingresa la opción
+    opcion = int(input('\nDigite la zona que desea supervisar: '))
+    #Llama a las funciones ya determinadas
+    if opcion == 1:
+        Zona_1()
+    elif opcion == 2:
+        Zona_2()
+    elif opcion == 3:
+        Zona_3()
+    elif opcion == 4:
+        Zona_4()
+    elif opcion == 5:
+        Zona_5()
+    elif opcion == 6:
+        Zona_6()
+    elif opcion == 7:
+        Zona_7()
+    elif opcion == 8:
+        #Opción para salir del programa del agrobot E-Series
+        print('\nAPAGANDO AGROBOT E-SERIES.....\n')
+        print('.............\n')
+        print('...ADIOS!!\n')
+    else:
+        #Mensaje de error al escoger un número erroneo que no se encuentra en el menu
+        print("\nDIGITE UNA OPCION VALIDA DEL AGROBOT E-SERIES")  
