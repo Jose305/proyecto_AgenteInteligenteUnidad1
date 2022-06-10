@@ -206,4 +206,81 @@ def Zona_5():
     print("Medición del rendimiento: " + str(costo))
 
 #******************************************************************************************************************
-    
+#Se define la función que pertence a la zona 6
+def Zona_6():
+    """ Se inicializa la zona_6
+        Para cada localización su objetivo es tener el estado en 0 
+        Se indica que 0 es la fruta aun verde y 1 que la fruta esta totalmente madura lista para cosechar
+        Se inicializa en el costo 0
+    """
+    zona_6 = {'F': '0'}
+    costo = 0
+   #Nombre de la zona
+    print("\nZona 6 Congoma - Reproducción de Fresas \n")
+    #Variable de la zona 6 que permitira ingresar por consola al usuario
+    localizacion_F = input("Digite si las fresas de la zona estan verdes (0) si las fresas estan maduras (1) : ") 
+    #Objetivo alcanzar del zona 6
+    print("Objetivo en alcanzar: " + str(zona_6))
+    """ Se condiciona la localizacion que tomara el valor del usuario y ejecutara la acción determinada 
+        para el robot si realiza una accion aumentara el costo caso contrario se mantendra con su
+        valor inicial
+    """
+    if localizacion_F == '1':
+            #La zona se encuentra cosechada
+            print("La zona 6 se encuentra en estado de cosecha.")
+            #Aumenta el costo del agrobot
+            zona_6['F'] = '0'
+            costo += 1 #Imprime el mensaje de exito junto con el nuevo costo
+            print("La zona 6 ya ha sido cesechada con exito.")
+            print("Costo actual: " + str(costo))
+            
+    else:
+        #La zona de cultivo se encuentra cosechada. Por lo tanto no se realiza ninguna acción
+        print("La zona 6 se encuentra en estado de crecimiento de las fresas.")
+        print("Costo actual: " "("+ str(costo)+")")
+    #Se imprimira el resultado de la zona de cultivo seleccionado, alcanzo el objetivo con el costo.    
+    print("Estado de la zona 6: ")
+    print(zona_6)
+    print("Medición del rendimiento: " + str(costo))
+
+#******************************************************************************************************************
+
+#Se define la función que pertence a la zona 7
+def Zona_7():
+    """ Se inicializa la zona_1
+        Para cada localización su objetivo es tener el estado en 0 
+        Se indica que 0 es la fruta aun verde y 1 que la fruta esta totalmente madura lista para cosechar
+        Se inicializa en el costo 0
+    """
+    zona_7 = {'G': '0'}
+    costo = 0
+    #Nombre de la zona
+    print("\nZona 7 Mapali - Reproducción de Fresas \n")
+    #Variable de la zona 7 que permitira ingresar por consola al usuario
+    localizacion_G = input("Digite si las fresas de la zona estan verdes (0) si las fresas estan maduras (1) : ") 
+    #Objetivo alcanzar del zona 7
+    print("Objetivo en alcanzar: " + str(zona_7))
+    """ Se condiciona la localizacion que tomara el valor del usuario y ejecutara la acción determinada 
+        para el robot si realiza una accion aumentara el costo caso contrario se mantendra con su
+        valor inicial
+    """
+    if localizacion_G == '1':
+            #La zona se encuentra cosechada
+            print("La zona 7 se encuentra en estado de cosecha.")
+            #Aumenta el costo del agrobot
+            zona_7['G'] = '0'
+            costo += 1 #Imprime el mensaje de exito junto con el nuevo costo
+            print("La zona 7 ya ha sido cesechada con exito.")
+            print("Costo actual: " + str(costo))
+            
+    else:
+        #La zona de cultivo se encuentra cosechada. Por lo tanto no se realiza ninguna acción
+        print("La zona 7 se encuentra en estado de crecimiento de las fresas.")
+        print("Costo actual: " "("+ str(costo)+")")
+    #Se imprimira el resultado de la zona de cultivo seleccionado, alcanzo el objetivo con el costo.    
+    print("Estado de la zona 7: ")
+    print(zona_7)
+    print("Medición del rendimiento: " + str(costo))
+
+#******************************************************************************************************************
+  
