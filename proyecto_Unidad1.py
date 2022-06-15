@@ -18,6 +18,12 @@ def Zona_1():
         Para cada localización su objetivo es tener el estado en 0 
         Se indica que 0 es la fruta aun verde y 1 que la fruta esta totalmente madura lista para cosechar
         Se inicializa en el costo 0
+        
+        Parametros:
+            nada
+            
+        Retorna:
+            nada
     """
     zona_1 = {'A': '0'}
     costo = 0
@@ -56,6 +62,12 @@ def Zona_2():
         Para cada localización su objetivo es tener el estado en 0 
         Se indica que 0 es la fruta aun verde y 1 que la fruta esta totalmente madura lista para cosechar
         Se inicializa en el costo 0
+        
+        Parametros:
+            nada
+            
+        Retorna:
+            nada
     """
     zona_2 = {'B': '0'}
     costo = 0
@@ -93,6 +105,12 @@ def Zona_3():
         Para cada localización su objetivo es tener el estado en 0 
         Se indica que 0 es la fruta aun verde y 1 que la fruta esta totalmente madura lista para cosechar
         Se inicializa en el costo 0
+        
+        Parametros:
+            nada
+            
+        Retorna:
+            nada
     """
     zona_3 = {'C': '0'}
     costo = 0
@@ -130,6 +148,12 @@ def Zona_4():
         Para cada localización su objetivo es tener el estado en 0 
         Se indica que 0 es la fruta aun verde y 1 que la fruta esta totalmente madura lista para cosechar
         Se inicializa en el costo 0
+        
+        Parametros:
+            nada
+            
+        Retorna:
+            nada
     """
     zona_4 = {'D': '0'}
     costo = 0
@@ -168,6 +192,12 @@ def Zona_5():
         Para cada localización su objetivo es tener el estado en 0 
         Se indica que 0 es la fruta aun verde y 1 que la fruta esta totalmente madura lista para cosechar
         Se inicializa en el costo 0
+        
+        Parametros:
+            nada
+            
+        Retorna:
+            nada
     """
     zona_5 = {'E': '0'}
     costo = 0
@@ -205,6 +235,12 @@ def Zona_6():
         Para cada localización su objetivo es tener el estado en 0 
         Se indica que 0 es la fruta aun verde y 1 que la fruta esta totalmente madura lista para cosechar
         Se inicializa en el costo 0
+        
+        Parametros:
+            nada
+            
+        Retorna:
+            nada
     """
     zona_6 = {'F': '0'}
     costo = 0
@@ -243,6 +279,12 @@ def Zona_7():
         Para cada localización su objetivo es tener el estado en 0 
         Se indica que 0 es la fruta aun verde y 1 que la fruta esta totalmente madura lista para cosechar
         Se inicializa en el costo 0
+        
+        Parametros:
+            nada
+            
+        Retorna:
+            nada
     """
     zona_7 = {'G': '0'}
     costo = 0
