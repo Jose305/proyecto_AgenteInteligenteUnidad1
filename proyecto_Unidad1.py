@@ -62,7 +62,7 @@ def Zona_2():
     #Nombre de la zona
     print("\nZona 2 Peripa - Reproducción de Fresas \n")
     #Variable de la zona 2 que permitira ingresar por consola al usuario
-    localizacion_B = input("Digite si las fresas de la zona estan verdes (0) o si las fresas estan maduras (1) : ") 
+    localizacion_B = input("Digite si las fresas de la zona estan cosechadas (0) o si las fresas estan por cosechar (1) : ") 
     #Objetivo alcanzar del zona 2
     print("Objetivo en alcanzar: " + str(zona_2))
         #Se condiciona la localizacion que tomara el valor del usuario y ejecutara la acción determinada 
@@ -99,7 +99,7 @@ def Zona_3():
     #Nombre de la zona
     print("\nZona 3 Chiguilpe - Reproducción de Fresas \n")
     #Variable de la zona 3 que permitira ingresar por consola al usuario
-    localizacion_C = input("Digite si las fresas de la zona estan verdes (0) si las fresas estan maduras (1) : ") 
+    localizacion_C = input("Digite si las fresas de la zona estan cosechadas (0) o si las fresas estan por cosechar (1) : ") 
     #Objetivo alcanzar del zona 3
     print("Objetivo en alcanzar: " + str(zona_3))
         #Se condiciona la localizacion que tomara el valor del usuario y ejecutara la acción determinada 
@@ -136,7 +136,7 @@ def Zona_4():
     #Nombre de la zona
     print("\nZona 4 Otongo - Reproducción de Fresas \n")
     #Variable de la zona 4 que permitira ingresar por consola al usuario
-    localizacion_D = input("Digite si las fresas de la zona estan verdes (0) si las fresas estan maduras (1) : ") 
+    localizacion_D = input("Digite si las fresas de la zona estan cosechadas (0) o si las fresas estan por cosechar (1) : ") 
     #Objetivo alcanzar del zona 4
     print("Objetivo en alcanzar: " + str(zona_4))
         #Se condiciona la localizacion que tomara el valor del usuario y ejecutara la acción determinada 
@@ -174,7 +174,7 @@ def Zona_5():
     #Nombre de la zona
     print("\nZona 5 Naranjos - Reproducción de Fresas \n")
     #Variable de la zona 5 que permitira ingresar por consola al usuario
-    localizacion_E = input("Digite si las fresas de la zona estan verdes (0) si las fresas estan maduras (1) : ") 
+    localizacion_E = input("Digite si las fresas de la zona estan cosechadas (0) o si las fresas estan por cosechar (1) : ") 
     #Objetivo alcanzar del zona 5
     print("Objetivo en alcanzar: " + str(zona_5))
         #Se condiciona la localizacion que tomara el valor del usuario y ejecutara la acción determinada 
@@ -211,7 +211,7 @@ def Zona_6():
    #Nombre de la zona
     print("\nZona 6 Congoma - Reproducción de Fresas \n")
     #Variable de la zona 6 que permitira ingresar por consola al usuario
-    localizacion_F = input("Digite si las fresas de la zona estan verdes (0) si las fresas estan maduras (1) : ") 
+    localizacion_F = input("Digite si las fresas de la zona estan cosechadas (0) o si las fresas estan por cosechar (1) : ") 
     #Objetivo alcanzar del zona 6
     print("Objetivo en alcanzar: " + str(zona_6))
         #Se condiciona la localizacion que tomara el valor del usuario y ejecutara la acción determinada 
@@ -249,7 +249,7 @@ def Zona_7():
     #Nombre de la zona
     print("\nZona 7 Mapali - Reproducción de Fresas \n")
     #Variable de la zona 7 que permitira ingresar por consola al usuario
-    localizacion_G = input("Digite si las fresas de la zona estan verdes (0) si las fresas estan maduras (1) : ") 
+    localizacion_G = input("Digite si las fresas de la zona estan cosechadas (0) o si las fresas estan por cosechar (1) : ") 
     #Objetivo alcanzar del zona 7
     print("Objetivo en alcanzar: " + str(zona_7))
         #Se condiciona la localizacion que tomara el valor del usuario y ejecutara la acción determinada 
